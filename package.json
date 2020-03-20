@@ -1,0 +1,25 @@
+{
+  "name": "@pie-dao/eth-tailwind",
+  "version": "1.0.0",
+  "description": "PieDAO's eth wrapper tailwind plugin.",
+  "main": "src/index.js",
+  "repository": "https://github.com/pie-dao/eth-tailwind.git",
+  "author": "Dan Matthews <dan@cryptobuilders.io>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "npx eslint src/*.js src/**/*.js",
+    "prerelease": "yarn lint",
+    "release": "npm publish --access=public"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0"
+  }
+}
